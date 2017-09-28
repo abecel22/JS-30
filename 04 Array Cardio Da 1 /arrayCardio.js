@@ -42,6 +42,7 @@
             return total + (inventor.passed - inventor.year);
         }, 0);
         console.log(yearsLived);
+        
 
     // 5. Sort the inventors by years lived
         const yearsLivedSorted = inventors.sort((a,b) => {
