@@ -66,10 +66,24 @@
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
-        const lastNameSort = people.sort((a, b) => a - b);
-        console.table(lastNameSort);// not finished 9/29
+        const lastNameSort = people.sort((lastOne, nextOne) => {
+            const [aLast, aFirst] = lastOne.split(', ');
+            const [bLast, bFirst] = nextOne.split(', ');
+            return aLast > bLast ? 1 : -1;
+        });
+        console.log(lastNameSort);
+
+        
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
-
+    const countedData = data.reduce((objData, item) => {
+        if (item in objData){
+            objData[item]++;
+        }else {
+            objData[item] = 1;
+        }
+        return objData;
+    }, {});
   
+    console.log(countedData);
