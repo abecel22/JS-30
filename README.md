@@ -10,4 +10,7 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 ### 03 CSS Variables and JS
 ![CSS Variables](https://user-images.githubusercontent.com/25330153/30839086-2eacd494-a235-11e7-87e0-4fe29ccab246.gif)
 
+### 04 Array practice
 
+### 05 Flex Panels Image Gallery
+![flex-gallery](https://user-images.githubusercontent.com/25330153/31062827-31431084-a6f3-11e7-8fc9-871de5d0aba1.gif)
