@@ -14,3 +14,6 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 
 ### 05 Flex Panels Image Gallery
 ![flex-gallery](https://user-images.githubusercontent.com/25330153/31062827-31431084-a6f3-11e7-8fc9-871de5d0aba1.gif)
+
+### 06 Ajax Type Ahead
+![type-ahead](https://user-images.githubusercontent.com/25330153/31108157-075e0812-a7bd-11e7-915f-596317cc6abc.gif)
