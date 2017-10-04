@@ -17,3 +17,5 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 
 ### 06 Ajax Type Ahead
 ![type-ahead](https://user-images.githubusercontent.com/25330153/31108157-075e0812-a7bd-11e7-915f-596317cc6abc.gif)
+
+### 07 Array Practice Pt-2
