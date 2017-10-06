@@ -19,3 +19,6 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 ![type-ahead](https://user-images.githubusercontent.com/25330153/31108157-075e0812-a7bd-11e7-915f-596317cc6abc.gif)
 
 ### 07 Array Practice Pt-2
+
+### 08 Fun with HTML5 Canvas and JS
+![canvas paint](https://user-images.githubusercontent.com/25330153/31262112-5d2b6a24-aa1e-11e7-9c05-003146bacf36.gif)
