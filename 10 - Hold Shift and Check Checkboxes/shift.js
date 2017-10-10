@@ -7,19 +7,19 @@ function handleCheck(e) {
     // and check if they are unchecking it
     console.log(e);
     let inBetween = false;
-    if(e.shiftKey && this.checked) {
+    if (e.shiftKey && this.checked) {
         //go ahead and run.....
         //loop over every checkbox
         checkboxes.forEach(checkbox => {
-            if(checkbox === this || checkbox === lastChecked) {
+            if (checkbox === this || checkbox === lastChecked) {
                 inBetween = !inBetween;
             }
 
-            if(inBetween){
-                checkbox.checked =true;
+            if (inBetween) {
+                checkbox.checked = true;
             }
         });
-    } 
+    }
 
     lastChecked = this;
 }
