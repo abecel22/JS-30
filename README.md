@@ -26,5 +26,6 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 ### 09 Dev-tools Tips
 
 ### 10 Hold Shift Excercise
+![checkboxes](https://user-images.githubusercontent.com/25330153/31366969-bc7f6584-ad39-11e7-8cf5-dd2f2fa89155.gif)
 
 
