@@ -1,12 +1,11 @@
 const checkboxes = document.querySelectorAll('input[type=checkbox]');
-console.log(checkboxes);
 
 let lastChecked;
 
 function handleCheck(e) {
     //check if they have the shift key down
     // and check if they are unchecking it
-
+    console.log(e);
     let inBetween = false;
     if(e.shiftKey && this.checked) {
         //go ahead and run.....
