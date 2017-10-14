@@ -30,3 +30,5 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 
 ### 11 Custom Video Player
 ![custom video player](https://user-images.githubusercontent.com/25330153/31475041-157a515e-aec4-11e7-92be-93e1ea8716d0.gif)
+
+
