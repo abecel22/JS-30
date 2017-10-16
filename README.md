@@ -31,4 +31,8 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 ### 11 Custom Video Player
 ![custom video player](https://user-images.githubusercontent.com/25330153/31475041-157a515e-aec4-11e7-92be-93e1ea8716d0.gif)
 
+### 12 Key Sequence Detection
+
+### 13 Slide in Scroll Images
+![scroll](https://user-images.githubusercontent.com/25330153/31593000-9646b932-b1f1-11e7-90e6-fca6123760af.gif)
 
