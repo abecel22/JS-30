@@ -10,7 +10,12 @@
           text: text, // or I could have left out the ": text" and just have "text,"
           done: false
       };
+      items.push(item);
       this.reset();
+  }
+
+  function pouplateList(plates = [], pla) {
+
   }
 
   addItems.addEventListener('submit', addItem);
