@@ -1,7 +1,7 @@
 
   const addItems = document.querySelector('.add-items');
   const itemsList = document.querySelector('.plates');
-  const items = [];
+  const items =JSON.parse(localStorage.getItem('items')) || [];
 
   function addItem(e) {
       e.preventDefault();
@@ -11,11 +11,28 @@
           done: false
       };
       items.push(item);
+      pouplateList(items, itemsList);
+      localStorage.setItem('items', JSON.stringify(items));
       this.reset();
   }
 
-  function pouplateList(plates = [], pla) {
-
+  function pouplateList(plates = [], platesList) {
+        platesList.innerHTML = plates.map((plate, i) => {
+            return `
+            <li>
+            <input type="checkbox" data-index=${i} id="item${i}" ${plate.done ? 'checked' : ''} />
+            <label for="item${i}">${plate.text}</label>
+            </li>
+            
+            `
+        }).join('');
   }
 
+  function toggleDone(e) {
+        if(!e.target.matches('input')) return; //skip this unless its an input
+}
+
   addItems.addEventListener('submit', addItem);
+  itemsList.addEventListener('click', toggleDone);
+
+  pouplateList(items, itemsList);
