@@ -22,8 +22,34 @@ function paintToCanvas() {
     canvas.width = width;
     canvas.height = height;
 
-    setInterval()
+return setInterval(() => {
+        ctx.drawImage(video, 0, 0, width, height);
+        const pixels = ctx.getImageData(0, 0, width, height);
+        console.log(pixels);
+        debugger;
+    }, 16);
 }
 
+function takePhoto() {
+    //played the sound
+    snap.currentTime = 0;
+    snap.play();
+
+    //take the data out of the canvas
+    const data = canvas.toDataURL('image/jpeg');
+    const link = document.createElement('a');
+    link.href = data;
+    link.setAttribute('dowload', 'handsome');
+    link.innerHTML = `<img src="${data}" alt="Handsome Man" />`
+    strip.insertBefore(link, strip.firstChild);
+   
+}
+
+
+
 getVideo();
-paintToCanvas();
+
+
+
+
+video.addEventListener('canplay', paintToCanvas);
