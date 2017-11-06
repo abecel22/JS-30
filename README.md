@@ -43,3 +43,7 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 ### 16 Mouse Move Shadow
 
 ### 17 Sort Without Articles
+
+### 18 Adding up Times with Reduce
+
+### 19 Webcam Fun
