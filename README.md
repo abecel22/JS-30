@@ -47,3 +47,5 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 ### 18 Adding up Times with Reduce
 
 ### 19 Webcam Fun
+
+### 20 Speech Detection
