@@ -49,3 +49,8 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 ### 19 Webcam Fun
 
 ### 20 Speech Detection
+
+### 21 Geolocation
+
+### 22 Follow Along Highlighter
+
