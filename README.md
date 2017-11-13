@@ -54,3 +54,7 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 
 ### 22 Follow Along Highlighter
 
+### 23 Speech Synthesis
+
+### 24 Sticky Nav
+
