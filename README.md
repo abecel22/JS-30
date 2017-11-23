@@ -58,3 +58,7 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 
 ### 24 Sticky Nav
 
+### 25 Event Capture & Propagnation
+
+### 26 Stripe Follow Along Nav
+
