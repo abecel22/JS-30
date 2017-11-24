@@ -62,3 +62,5 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 
 ### 26 Stripe Follow Along Nav
 
+### 27 Click and Drag
+
