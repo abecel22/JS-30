@@ -64,3 +64,9 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 
 ### 27 Click and Drag
 
+### 28 Video Speed Controller
+
+### 29 Countdown Timer
+
+### 30 Whack A Mole
+
