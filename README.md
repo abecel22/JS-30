@@ -68,5 +68,5 @@ Includes all challenges of JavaScript 30 Challenge from Wes Bos. The JS 30 is a 
 
 ### 29 Countdown Timer
 
-### 30 Whack A Mole
+### 30 Whack A Mole        
 
